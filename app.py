@@ -5,9 +5,9 @@ st.title("🎵 フリーBGMダウンロードサイト")
 st.caption("著作権フリー・商用OKのBGMを配布しています。")
 
 bgms = [
-    {"title": "Relax Loop", "file": "bgm/relax.mp3"},
-    {"title": "C.F.G", "file": "bgm/cfg.mp3"},
+    {"title": "Relax Loop", "file": "bgm/cfg.mp3"}  # ← 修正後のファイル名に合わせる
 ]
+
 
 
 for bgm in bgms:
