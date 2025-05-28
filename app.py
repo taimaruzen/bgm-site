@@ -5,8 +5,10 @@ st.title("🎵 フリーBGMダウンロードサイト")
 st.caption("著作権フリー・商用OKのBGMを配布しています。")
 
 bgms = [
-    {"title": "Relax Loop", "file": "C.F.G.mp3"},
+    {"title": "Relax Loop", "file": "bgm/relax.mp3"},
+    {"title": "C.F.G", "file": "bgm/cfg.mp3"},
 ]
+
 
 for bgm in bgms:
     st.subheader(bgm["title"])
